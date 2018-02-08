@@ -90,8 +90,9 @@ color:darkorange;
 
 .welcometext
 {
-    margin-right: 220px;
+    display: inline-block;
     padding-top: 15px;
+    width: 600px;
         
 }
 
@@ -738,7 +739,8 @@ font-size: 15px;
     font-size: 23px;
     background-color:rgba(255,165,0,0.7);
     text-align: left;
-    padding-left: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .aboutusbox2
@@ -750,6 +752,7 @@ font-size: 15px;
     background-color:rgba(255,165,0,0.7);
     text-align: left;
     padding-left: 20px;
+    padding-right: 20px;
 }
 
 .aboutusbox3
@@ -761,8 +764,31 @@ font-size: 15px;
     font-size: 23px;
     background-color:rgba(255,165,0,0.7);
     text-align: left;
-    padding-left: 30px;
+    padding-left: 40px;
+    padding-right: 20px;
 }
+
+.followus
+{
+            max-height: 100%;
+            background-image: url("../images/sushisasi1.jpg");
+            background-size:100% 100%;
+            background-repeat: no-repeat;
+            text-align: center;
+            text-decoration: none;
+            font-size: 30px;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: table;
+            border-collapse: collapse;
+            width: 100%;
+            height: 100%;
+            background-position: center;
+            color: white;
+} 
+
+
 
 input:focus {
 
